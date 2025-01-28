@@ -49,5 +49,6 @@ public class EbayAddToCartTest {
                 System.out.println("Test Failed: Item not added to cart.");
             }
         driver.close();
+
     }
 }
