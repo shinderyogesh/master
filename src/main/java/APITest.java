@@ -4,7 +4,7 @@ import io.restassured.response.Response;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
-public class CoinDeskAPITest {
+public class APITest {
     public static void main(String[] args) {
         // Base URI API
         RestAssured.baseURI = "https://api.coindesk.com/v1/bpi/currentprice.json";
